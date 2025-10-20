@@ -3,6 +3,10 @@
 A simple, interactive, and visually responsive counter application built with **HTML**, **CSS**, and **vanilla JavaScript**.  
 Click the buttons to increment, decrement, or reset the count — and watch the background color and emoji change dynamically based on the value!
 
+## 🌐 Live Demo
+
+Try the app live: [https://counter-6397s8lpm-fatin-tawsif-hoques-projects.vercel.app/](https://counter-6397s8lpm-fatin-tawsif-hoques-projects.vercel.app/)
+
 ![Counter App Preview]
 Initial Stage - ![Initial Stage](initial.png)
 Increment Stage - ![Increment Stage](increment.png)
