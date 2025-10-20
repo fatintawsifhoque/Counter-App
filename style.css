@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 220, 220);
+  border-radius: 7px;
+  padding: 25px;
+}
+#imoji {
+  font-size: 40px;
+}
+#count {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  
+}
+.butn {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 1.25rem;
+}
+.butn:active {
+  transform: scale(0.95);
+}
+#decrement:hover {
+  background-color: rgb(230, 104, 104);
+  cursor: pointer;
+}
+#reset:hover {
+  background-color: rgb(146, 144, 144);
+  cursor: pointer;
+}
+#increment:hover {
+  background-color: rgb(105, 245, 158);
+  cursor: pointer;
+}
